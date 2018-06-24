@@ -31,7 +31,7 @@ public class PControls : MonoBehaviour {
     //Fire spawns bullet
     void Fire()
     {
-        Vector3 bulletSpawnOffset = new Vector3(0.0f, 0.0f, 2.0f);
+        Vector3 bulletSpawnOffset = new Vector3(0.0f, 0.0f, 0.0f);
 
         //creates a bullet from gameobject bullet
         Instantiate(
